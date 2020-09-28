@@ -9,5 +9,5 @@ im1 = evalin('base', 'im1');
 im2 = evalin('base', 'im2');
 himg = evalin('base', 'himg');
 
-imdst = blendImagePoisson(im1, im2, roi, targetPosition);
+imdst = blendImagePoisson2(im1, im2, roi, targetPosition);
 set(himg, 'CData', imdst);
